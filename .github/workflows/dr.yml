@@ -22,4 +22,5 @@ jobs:
         env:
           comment: ${{ steps.review.outputs.comment-content }}
         run: |
+          echo "Report goes here"
           echo "$comment"
